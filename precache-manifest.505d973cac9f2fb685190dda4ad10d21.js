@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec717fb9f4ef2feea0777b6750c7c4be",
+    "revision": "9a3f2acc84a53548f66e4ae375e541b0",
     "url": "/HearthStone-Manager/index.html"
   },
   {
-    "revision": "5996718c9a1332ab715c",
+    "revision": "a9ca0b8a8d8717849b68",
     "url": "/HearthStone-Manager/static/css/main.584d7ee5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HearthStone-Manager/static/js/2.347edbe5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5996718c9a1332ab715c",
-    "url": "/HearthStone-Manager/static/js/main.5d343216.chunk.js"
+    "revision": "a9ca0b8a8d8717849b68",
+    "url": "/HearthStone-Manager/static/js/main.ca10dc02.chunk.js"
   },
   {
     "revision": "3cf99936d6e75fbe99af",

@@ -11,7 +11,7 @@ const Lista = () => {
         <div className="lista-container">
             <div className="lista">
                 {cardList.map((carta, index) => {
-                    return <Carta carta={carta} isDeck={false} />
+                    return <Carta key={index} carta={carta} isDeck={false} />
                 })}
             </div>
         </div>

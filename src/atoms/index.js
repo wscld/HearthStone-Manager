@@ -19,3 +19,8 @@ export const cardToRemoveState = atom({
     key: 'cardToRemoveState',
     default: {}
 });
+
+export const classeState = atom({
+    key: 'classeState',
+    default:''
+})

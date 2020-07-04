@@ -9,8 +9,8 @@ export const findCards = async (id, tipo, nome, classe) => {
                 access_token: 'USCQo2z5wpRth4yGbHdpu2K0wtIEAS7DCI',
                 class: classe,
                 id: id,
-                tipo: tipo,
-                nome:nome
+                type: tipo,
+                name:nome
             }
         });
         return response.data.cards;

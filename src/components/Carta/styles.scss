@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa+One&display=swap");
+
+.carta-container {
+    width: 200px;
+    font-family: "Changa One", cursive;
+
+    margin: 5px;
+    text-align: center;
+    .carta {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        .image {
+            background-color: rgb(238, 232, 212);
+            border-radius: 5px;
+            margin-bottom: 5px;
+            img {
+                width: auto;
+                height: 200px;
+            }
+        }
+        .content {
+            background-color: rgb(238, 232, 212);
+            border-radius: 5px;
+            padding: 20px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            height: 100%;
+            margin-bottom: 5px;
+            .nome {
+                font-size: 25px;
+            }
+            .id {
+                background-color: rgb(218, 210, 187);
+                border-radius: 5px;
+                padding: 5px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

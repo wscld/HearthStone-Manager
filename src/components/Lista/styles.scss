@@ -1,0 +1,11 @@
+.lista-container {
+    display: flex;
+    overflow: auto;
+
+    .lista {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: stretch;
+    }
+}

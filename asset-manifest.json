@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/HearthStone-Manager/static/css/main.584d7ee5.chunk.css",
+    "main.js": "/HearthStone-Manager/static/js/main.5d343216.chunk.js",
+    "main.js.map": "/HearthStone-Manager/static/js/main.5d343216.chunk.js.map",
+    "runtime-main.js": "/HearthStone-Manager/static/js/runtime-main.ec22a421.js",
+    "runtime-main.js.map": "/HearthStone-Manager/static/js/runtime-main.ec22a421.js.map",
+    "static/js/2.347edbe5.chunk.js": "/HearthStone-Manager/static/js/2.347edbe5.chunk.js",
+    "static/js/2.347edbe5.chunk.js.map": "/HearthStone-Manager/static/js/2.347edbe5.chunk.js.map",
+    "index.html": "/HearthStone-Manager/index.html",
+    "precache-manifest.7c7e8f7e23660528bd7fcf93b1782903.js": "/HearthStone-Manager/precache-manifest.7c7e8f7e23660528bd7fcf93b1782903.js",
+    "service-worker.js": "/HearthStone-Manager/service-worker.js",
+    "static/css/main.584d7ee5.chunk.css.map": "/HearthStone-Manager/static/css/main.584d7ee5.chunk.css.map",
+    "static/js/2.347edbe5.chunk.js.LICENSE.txt": "/HearthStone-Manager/static/js/2.347edbe5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec22a421.js",
+    "static/js/2.347edbe5.chunk.js",
+    "static/css/main.584d7ee5.chunk.css",
+    "static/js/main.5d343216.chunk.js"
+  ]
+}

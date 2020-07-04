@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a3f2acc84a53548f66e4ae375e541b0",
+    "revision": "ee638eb99e882f02f9b38e9fbff97b93",
     "url": "/HearthStone-Manager/index.html"
   },
   {

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/HearthStone-Manager/precache-manifest.505d973cac9f2fb685190dda4ad10d21.js"
+  "/HearthStone-Manager/precache-manifest.6ea423da619bd5865150c747d658312d.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,3 +1,5 @@
+![](https://res.cloudinary.com/dble8dnul/image/upload/c_scale,h_470/v1593904874/screenshot-nimbus-capture-2020.07.04-20_19_24_v2x7da.png)
+
 # HearthStone-Manager
 Gerenciador de cartas HearthStone utilizando ReactJS e Recoil
 

@@ -7,10 +7,10 @@ export const findCards = async (id, tipo, nome, classe) => {
             url: 'https://us.api.blizzard.com/hearthstone/cards?locale=pt_BR',
             params: {
                 access_token: 'USCQo2z5wpRth4yGbHdpu2K0wtIEAS7DCI',
-                class: classe,
+                class: classe || 'neutral',
                 id: id,
                 type: tipo,
-                name:nome
+                name: nome
             }
         });
         return response.data.cards;

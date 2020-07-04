@@ -21,7 +21,7 @@ const Deck = () => {
     useEffect(() => {
         if (cardToAdd && isComponentMounted) {
             try {
-                setCardList(checkCards(cardList, cardToAdd, classe, cardFilter));
+                setCardList(checkCards(cardList, cardToAdd, classe));
             } catch (err) {
                 Swal.fire(err.message);
             }

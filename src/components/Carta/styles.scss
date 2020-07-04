@@ -16,6 +16,26 @@
                 height: 200px;
             }
         }
+        .extra {
+            background-color: rgb(218, 210, 187);
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+        .ataque {
+            background-color: #703030;
+            color: white;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+        .defesa {
+            background-color: #e0a65a;
+            color: white;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
         .content {
             background-color: rgb(238, 232, 212);
             border-radius: 5px;
@@ -26,21 +46,6 @@
             margin-bottom: 5px;
             .nome {
                 font-size: 25px;
-            }
-            .id {
-                background-color: rgb(218, 210, 187);
-                border-radius: 5px;
-                padding: 5px;
-                margin-top: 10px;
-                margin-bottom: 10px;
-            }
-            .ataque {
-                background-color: #703030;
-                color: white;
-                border-radius: 5px;
-                padding: 5px;
-                margin-top: 10px;
-                margin-bottom: 10px;
             }
         }
     }

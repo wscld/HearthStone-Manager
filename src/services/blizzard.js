@@ -1,5 +1,12 @@
 import axios from 'axios';
 
+/**
+ * Resgata cartas filtradas na API da Blizzard
+ * @param {int} id 
+ * @param {string} tipo 
+ * @param {string} nome 
+ * @param {string} classe 
+ */
 export const findCards = async (id, tipo, nome, classe) => {
     try {
         const response = await axios({

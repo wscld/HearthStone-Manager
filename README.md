@@ -9,6 +9,7 @@ https://wscld.github.io/HearthStone-Manager/
 
 ## Como Rodar
 Criar arquivo .env na pasta raiz contendo REACT_APP_BLIZZARD_TOKEN=SEU ACCESS TOKEN
+[Access Token pode ser gerado nesse link](https://develop.battle.net/documentation/hearthstone/game-data-apis "Access Token pode ser gerado aqui")
 
     $ yarn install
     $ yarn start

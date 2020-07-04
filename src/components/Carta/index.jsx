@@ -17,9 +17,9 @@ const Carta = ({ carta, isDeck }) => {
                 </div>
                 <div className="content">
                     <div className="nome">{carta.name}</div>
-                    <div className="id">{carta.id}</div>
+                    <div className="id">id: {carta.id}</div>
+                    <div className="ataque">Ataque: {carta.attack ? carta.attack : 0}</div>
                     <div className="descricao" dangerouslySetInnerHTML={{ __html: carta.text }}></div>
-                    <div className="ataque">{carta.attack}</div>
                 </div>
                 {isDeck ?
                     <>

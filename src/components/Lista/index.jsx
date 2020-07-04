@@ -1,7 +1,7 @@
 import React from 'react';
 import Carta from '../Carta';
 import { useRecoilValue } from 'recoil';
-import {cardSelector} from '../../atoms/selectors';
+import { cardSelector } from '../../atoms/selectors';
 import './styles.scss';
 
 const Lista = () => {
@@ -10,9 +10,9 @@ const Lista = () => {
     return (
         <div className="lista-container">
             <div className="lista">
-                {cardList.map((carta, index) => {
+                {cardList && cardList.length ? cardList.map((carta, index) => {
                     return <Carta key={index} carta={carta} isDeck={false} />
-                })}
+                }) : null}
             </div>
         </div>
     )

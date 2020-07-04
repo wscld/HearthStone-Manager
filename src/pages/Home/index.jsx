@@ -27,7 +27,7 @@ const Home = () => {
             <Filter filterCallback={filterCallback} />
             <div className="title">Cartas Disponiveis</div>
             <div className="tip">Utilize o scroll horizontal para navegar</div>
-            <Suspense fallback={<p>loading</p>}>
+            <Suspense fallback={<div className="loading">Carregando cartas...</div>}>
                 <Lista />
             </Suspense>
             <div className="title">Meu Deck - {classe}</div>

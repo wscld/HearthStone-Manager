@@ -47,7 +47,7 @@ const Deck = () => {
     return (
         <div className="lista-container">
             <div className="lista">
-                {cardList.length > 0 ? cardList.map((carta, index) => {
+                {cardList && cardList.length > 0 ? cardList.map((carta, index) => {
                     return <Carta key={index} carta={carta} isDeck={true} />
                 }) : null}
             </div>

@@ -8,8 +8,8 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/deck" children={<Home />} />
-        <Route path="/" children={<ClasseInicial />} />
+        <Route path="/HearthStone-Manager/deck" children={<Home />} />
+        <Route path="/HearthStone-Manager" children={<ClasseInicial />} />
       </Switch>
     </Router>
   );

@@ -37,7 +37,7 @@ const Inicio = () => {
                     <option value="paladin">Paladino</option>
                     <option value="neutral">Neutro</option>
                 </select>
-                <Link to={classe.length > 0? './deck':null}><div className="button">Continuar como {classe}</div></Link>
+                <Link to={classe.length > 0 ? './deck' : './'}><div className="button">{classe? 'Continuar como '+classe : 'Selecione uma classe'}</div></Link>
             </div>
         </div>
     );

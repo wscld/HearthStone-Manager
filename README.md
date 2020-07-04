@@ -6,6 +6,8 @@ Gerenciador de cartas HearthStone utilizando ReactJS e Recoil
 https://wscld.github.io/HearthStone-Manager/
 
 ## Como Rodar
+Criar arquivo .env na pasta raiz contendo REACT_APP_BLIZZARD_TOKEN=SEU ACCESS TOKEN
+
     $ yarn install
     $ yarn start
 
